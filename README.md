@@ -37,20 +37,20 @@ This assignment has 12 tasks:
 
 Before continuing, make sure that these tasks are completed!
 
-- [ ] Has a Vite+React project folder with a built `dist/` folder
-- [ ] The vite project `.gitignore` file does NOT include `dist`
-- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
-- [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
-- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+- [x] Has a Vite+React project folder with a built `dist/` folder
+- [x] The vite project `.gitignore` file does NOT include `dist`
+- [x] Has a `server` folder with an `index.js` file and a `package.json` file inside
+- [x] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
+- [x] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
 
 **Server Application Technical Requirements**
 
-- [ ] In `index.js`, the `express()` function is used to create an `app`
-- [ ] The `path` module is imported
-- [ ] The `__dirname` variable is used to generate an absolute path to the `dist/` folder of your React application
-- [ ] The `express.static()` middleware serves the static assets in the React application's `dist/` folder.
-- [ ] A middleware controller prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
-- [ ] The `app` listens on an available port (I recommend `8080`)
+- [x] In `index.js`, the `express()` function is used to create an `app`
+- [x] The `path` module is imported
+- [x] The `__dirname` variable is used to generate an absolute path to the `dist/` folder of your React application
+- [x] The `express.static()` middleware serves the static assets in the React application's `dist/` folder.
+- [x] A middleware controller prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
+- [x] The `app` listens on an available port (I recommend `8080`)
 
 **Deployment Technical Requirements**
 
