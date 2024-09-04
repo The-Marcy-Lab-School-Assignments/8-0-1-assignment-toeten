@@ -51,7 +51,7 @@ app.get('/about', serveAbout)
 app.get('/api/what', serveWhat)
 app.get('/api/data', serveData)
 
-const port = '8081'
+const port = '8080'
 
 //listen!
 
