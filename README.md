@@ -54,7 +54,7 @@ Before continuing, make sure that these tasks are completed!
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
+- [x] Your GitHub page has a link to the deployed server in the About section. 
 
 ## Part 1 — Setup
 
@@ -96,6 +96,9 @@ When you visit the index of your server (http://localhost:8080, or whatever port
 Any time that you send a request to the server, the request method, url, and time of request should be printed in the server's terminal.
 
 ## Part 3 — Deploy
+
+Here's my deployed link: https://eight-0-1-assignment-toeten-1.onrender.com/
+
 
 When you're done, push your code to github and [follow these steps to deploy using Render](https://github.com/The-Marcy-Lab-School/render-deployment-instructions). Then, add the deployed link to your GitHub About section. Click on the gear icon to set the Website url (see below)
 
